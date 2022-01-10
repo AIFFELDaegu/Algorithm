@@ -34,10 +34,10 @@ def solution(numbers, hand):
     }
 
     for n in numbers:
-        if n in [1,4,7]:
+        if n in [1, 4, 7]:
             answer += 'L'
             left_is = n
-        elif n in [3,6,9]:
+        elif n in [3, 6, 9]:
             answer += 'R'
             right_is = n
         else:
