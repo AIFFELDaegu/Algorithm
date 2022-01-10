@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> a8bc8178cff55b1471a92cdca7482b375d8d4cb0
+
 #        2 5 8 0
 # 1 2 3  1 2 3 4
 # 4 5 6  2 1 2 3
@@ -37,71 +34,25 @@ def solution(numbers, hand):
     }
 
     for n in numbers:
-        if n == 1 or n == 4 or n == 7:
+        if n in [1,4,7]:
             answer += 'L'
             left_is = n
-        elif n == 3 or n == 6 or n == 9:
+        elif n in [3,6,9]:
             answer += 'R'
             right_is = n
         else:
-            if distances[n][left_is] == distances[n][right_is]:
-                if hand == 'left':
-                    answer += 'L'
-                    left_is = n
-                else:
-                    answer += 'R'
-                    right_is = n
-            elif distances[n][left_is] < distances[n][right_is]:
+            if distances[n][left_is] < distances[n][right_is]:
                 answer += 'L'
                 left_is = n
             elif distances[n][left_is] > distances[n][right_is]:
                 answer += 'R'
                 right_is = n
+            elif hand == 'left':
+                answer += 'L'
+                left_is = n
+            else:
+                answer += 'R'
+                right_is = n
         #print(n, answer)
 
     return answer
-<<<<<<< HEAD
-=======
-=======
-def solution(new_id):
-    #1
-    answer = new_id.lower()
-
-    #2
-    characters = "~!@#$%^&*()=+[{]}:?,<>/"
-    answer = ''.join( x for x in answer if x not in characters) 
-
-    #3
-    tmp = answer[0]
-    for i in range(1, len(answer)):
-        if answer[i] == '.' and answer[i-1] == '.':
-            pass
-        else:
-            tmp += answer[i]
-    answer = tmp
-
-    #4
-    if answer[0] == '.':
-        if len(answer) == 1:
-            answer = ''
-        answer = answer[1:]
-    if len(answer) != 0 and answer[-1] == '.':
-        answer = answer[:-1]
-
-    #5
-    if answer == '':
-        answer = 'a'
-        
-    #6
-    if len(answer) > 15:
-        answer = answer[:15]
-        if answer[-1] == '.':
-            answer = answer[:-1]
-    
-    #7
-    while(len(answer) < 3):
-        answer += answer[-1]
-
-    return answer
->>>>>>> 437528410a20f2c465751fa6afc7fdb944676a41
->>>>>>> a8bc8178cff55b1471a92cdca7482b375d8d4cb0
