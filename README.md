@@ -8,15 +8,20 @@
 
 - 월요일,목요일 8시 30분 참석 
 
-- 월요일( 2문제 ),목요일 ( 1문제 )
-
 - 월요일까지 레벨1 1문제, 레벨2 1문제
 
 - 목요일까지 레벨1 2문제
 
+## 문제 풀이
+
+2022-1-10
+- 1번: https://programmers.co.kr/learn/courses/30/lessons/72410
+
+2022-1-12
+- 2번: https://programmers.co.kr/learn/courses/30/lessons/8130
+- 3번: https://programmers.co.kr/learn/courses/30/lessons/67256
+
+2022-1-17
 
 ## 기타 사항
-- https://programmers.co.kr/learn/courses/30/lessons/81301
-- https://programmers.co.kr/learn/courses/30/lessons/67256
-
-
+- 불참 사유 등등
