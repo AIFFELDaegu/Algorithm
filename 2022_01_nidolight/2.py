@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 def solution(s):
     numbers = []
     tmp_s = ""
