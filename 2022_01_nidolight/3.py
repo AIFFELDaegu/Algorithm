@@ -56,3 +56,14 @@ def solution(numbers, hand):
         #print(n, answer)
 
     return answer
+
+# def distance(hand, number):
+#     keypad = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ['*', 0, '#']]
+#     hand_coord, num_coord = None, None
+#     for i in range(len(keypad)):
+#         for j in range(len(keypad[0])):
+#             if keypad[i][j] == hand:
+#                 hand_coord = (i, j)
+#             if keypad[i][j] == number:
+#                 num_coord = (i, j)
+#     return abs(hand_coord[0]-num_coord[0]) + abs(hand_coord[1]-num_coord[1])
