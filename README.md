@@ -17,7 +17,7 @@
 2022-1-10
 - 1번: https://programmers.co.kr/learn/courses/30/lessons/72410
 
-2022-1-12
+2022-1-13
 - 2번: https://programmers.co.kr/learn/courses/30/lessons/81301
 - 3번: https://programmers.co.kr/learn/courses/30/lessons/67256
 
