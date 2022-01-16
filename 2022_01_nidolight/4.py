@@ -5,9 +5,7 @@ def solution(board, moves):
     answer = 0
     basket = []
     index = np.arange(len(board))
-
     df = pd.DataFrame(board, index=index)
-
 
     for m in moves:
         for i, col in enumerate(df.loc[:,m-1]):
@@ -15,11 +13,10 @@ def solution(board, moves):
                 basket.append(df.loc[i,m-1])
                 df.loc[i,m-1] = 0
                 break
-        if len(basket)>=2 and basket[-1] == basket[-2]: #같은거 붐
+        if len(basket)>1 and basket[-1] == basket[-2]: #같은거 붐
             basket = basket[:-2]
             answer += 2
-        print(df,basket,answer,'\n')
-        
+        # print(df,basket,answer,'\n')
 
     return answer
 
