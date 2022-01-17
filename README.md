@@ -27,7 +27,7 @@
 - 5번: [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/67256)
 
 2022-1-19
-- 6번: [기능개발](https://programmers.gico.kr/learn/courses/30/lessons/42586)
+- 6번: [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - 7번: [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
 
