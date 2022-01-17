@@ -16,15 +16,24 @@
 ## 문제 풀이
 
 2022-1-10
-- 1번: https://programmers.co.kr/learn/courses/30/lessons/72410
+- 1번: [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)
 
 2022-1-13
-- 2번: https://programmers.co.kr/learn/courses/30/lessons/81301
-- 3번: https://programmers.co.kr/learn/courses/30/lessons/67256
+- 2번: [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)
+- 3번: [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)
 
 2022-1-17
+<<<<<<< HEAD
+- 4번: [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/81301)
+- 5번: [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/67256)
+
+2022-1-19
+- 6번: [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+- 7번: [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
+=======
 - 4번: https://programmers.co.kr/learn/courses/30/lessons/64061
 - 5번: https://programmers.co.kr/learn/courses/30/lessons/60057
+>>>>>>> main
 
 
 
