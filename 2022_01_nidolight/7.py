@@ -2,15 +2,17 @@
 def solution(priorities, location):
     waiting_list = [[priorities[i], i] for i in range(len(priorities))]
     finished = []
+    answer = []
 
     recursive(waiting_list,finished)
 
     for i, f in enumerate(finished):
         if f[1] == location:
-            finished = i+1
-    return finished
+            answer = i+1
+    return answer
 
 def recursive(waiting_list,finished):
+    print(finished)
     for p in waiting_list:
         if waiting_list[0][0] < p[0]:
             waiting_list.append(waiting_list.pop(0))

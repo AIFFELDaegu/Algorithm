@@ -26,10 +26,13 @@
 - 4번: [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/81301)
 - 5번: [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/67256)
 
-2022-1-19
+2022-1-20
 - 6번: [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - 7번: [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
+2022-1-24
+- 8번: [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
+- 9번: [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 
 
 ---
