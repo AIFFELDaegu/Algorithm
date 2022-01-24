@@ -26,14 +26,17 @@
 - 4번: [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/81301)
 - 5번: [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/67256)
 
-2022-1-20
+2022-1-20 스택/큐
 - 6번: [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - 7번: [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
-2022-1-24
+2022-1-24 정렬 
 - 8번: [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 - 9번: [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 
+2022-1-27 힙
+- 10번: [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+- 11번: [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 
 ---
 ## 기타 사항
