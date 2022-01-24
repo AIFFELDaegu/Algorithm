@@ -34,6 +34,9 @@
 - 8번: [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 - 9번: [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 
+2022-1-27
+- 10번: [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+- 11번: [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 
 ---
 ## 기타 사항
