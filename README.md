@@ -38,7 +38,7 @@
 - 10번: [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 - 11번: [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 
-2022-1-27 bfs/dfs
+2022-2-3 bfs/dfs
 - 12번: [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 - 13번: [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
