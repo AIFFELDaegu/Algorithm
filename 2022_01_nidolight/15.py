@@ -1,32 +1,45 @@
-from collections import deque
 
-def solution(n,computers):
-    answer = 0
-    visited = [0]*n
+def solution(phone_book):
+    dict = Trie()
+    
+    for num in phone_book:
+        dict.insert(num)
 
-    for i in range(n):
-        if visited[i]:
-            continue
+    currentDepth = 0
+    maxDepth = dict.maxDepth
+    answer = recursive(dict.root, currentDepth, maxDepth)
 
-        answer += 1
-        dq = deque([computers[i]])
-        while dq:
-            nodes = dq.popleft()
-            for j in range(n):
-                if nodes[j] and not visited[j]:
-                    dq.append(computers[j])
-                    visited[j] = 1
-                    
     return answer
 
-    
-print(solution(3,[[1, 1, 0], [1, 1, 1], [0, 1, 1]]))
+def recursive(dict, currentDepth, maxDepth):
+    for k in dict:
+        print(currentDepth, maxDepth, dict[k])
+
+        if k == '*':
+            if currentDepth < maxDepth:
+                return False
+            else:
+                return True
+            
+        return recursive(dict[k], currentDepth+1, maxDepth)
+
+class Trie:
+    def __init__(self):
+        self.root = {}
+        self.maxDepth = 0
+
+    def insert(self, s):
+        cur_node = self.root
+        depth = len(s)
+
+        if depth>self.maxDepth:
+            self.maxDepth= depth
+
+        for c in s:
+            if c not in cur_node:
+                cur_node[c] = {}
+            cur_node = cur_node[c]
+        cur_node["*"] = s
 
 
-'''
-BFS
-첫 번째 컴퓨터를 루트 노드로 두고, 연결된 컴퓨터들을 BFS로 탐색한다.
-탐색 할 때, 지나간 노드를 visited에 표시한다.
-탐색이 끝나면, visited를 이용하여 지나가지 않은 노드를 루트 노드로 만든다.
-모든 노드에 대해서 탐색이 끝나면, BFS로 탐색을 시작한 횟수를 리턴한다.
-'''
+print(solution(["0",'1','2']))
