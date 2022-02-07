@@ -47,6 +47,10 @@
 - 15번: [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 - 16번: [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
 
+2022-2-10 완전탐색
+- 14번: [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+- 15번: [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
