@@ -1,15 +1,15 @@
 def solution(clothes):
     answer = 1
-    root ={}
+    dict = {}
 
-    for a,b in clothes:
-        if b not in root:
-            root[b] = 1
+    for a, b in clothes:
+        if b not in dict:
+            dict[b] = 1
         else:
-            root[b] += 1
+            dict[b] += 1
 
-    for v in root:
-        answer *= root[v]+1
+    for v in dict:
+        answer *= dict[v] + 1
 
     return answer - 1
 
