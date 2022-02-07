@@ -16,9 +16,11 @@ def solution(phone_book):
     for num in phone_book:
         PBdict.insert(num)
 
+    print(PBdict.root)
     return recursive(PBdict.root)
 
 def recursive(d):
+    print(d.keys())
     for k in d.keys():
         if k == '*' and len(d) > 1:
             return False
