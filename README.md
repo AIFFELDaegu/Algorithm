@@ -51,6 +51,11 @@
 - 17번: [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 - 18번: [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 
+2022-2-14 해시
+- 19번: [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
+- 20번: [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+- 21번: [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
