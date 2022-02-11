@@ -22,19 +22,20 @@
 #ord() A~N~Z : 65~78~90
 
 #https://velog.io/@doeunllee/프로그래머스-42860번-조이스틱
+
 def solution(name):
     answer = 0
     n = len(name)
 
-    def alphabet_to_num(char):
+    def alphabet_to_num(char): 
         num_char = [i for i in range(14)] + [j for j in range(12, 0, -1)]
         return num_char[ord(char) - ord('A')]
 
-    for ch in name:
+    for ch in name:      # 알파벳 cost 먼저 합산
         answer += alphabet_to_num(ch)
 
     move = n - 1
-    for idx in range(n):
+    for idx in range(n): # 좌우 커서 이동 cost 따로 계산
         next_idx = idx + 1
         while (next_idx < n) and (name[next_idx] == 'A'):
             next_idx += 1
