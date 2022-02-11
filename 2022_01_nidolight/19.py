@@ -12,7 +12,6 @@ def solution(n, lost, reserve):
     for i in lost:
         if i-1 in reserve:
             reserve -= {i-1}
-            print(reserve, n)
         elif i+1 in reserve:
             reserve -= {i+1}
         else:
@@ -20,4 +19,4 @@ def solution(n, lost, reserve):
 
     return len(n)
 
-print(solution(5,[2, 4],[1,3,5]))
+(solution(5,[2, 4],[1,3,5]))
