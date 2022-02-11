@@ -10,7 +10,7 @@ def solution(num, k):
 
 print(solution("4177252841", 4))
 
-''' # 중복스킵, test10만 실패
+''' # 중복스킵, test10 실패
 def solution(num, k):
     switch = True
     for _ in range(k):#k번 반복
