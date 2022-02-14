@@ -8,6 +8,7 @@
 #             index += 1
 #     return num
 
+
 ''' # 중복스킵, test10 시간초과
 def solution(num, k):
     switch = True
