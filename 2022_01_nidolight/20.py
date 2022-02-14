@@ -18,7 +18,7 @@
 #         idx += -left if left < right else right
 #     return answer
 
-# print(solution("JAN"))
+
 #ord() A~N~Z : 65~78~90
 
 #https://velog.io/@doeunllee/프로그래머스-42860번-조이스틱
@@ -44,3 +44,5 @@ def solution(name):
 
     answer += move
     return answer
+
+print(solution("AAABAAAAAB"))
