@@ -56,9 +56,14 @@
 - 20번: [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
 - 21번: [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
 
+2022-2-24 동적계획법(Dynamic Programming)
+- 22번: [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
+- 23번: [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
 
 - 0214 허준호 불참
 - 0214 류한웅 불참
+- 0217 손승우 불참(그리디까지 각자 정리하고 다음주 월요일에 그리디부터 다시 해요)
