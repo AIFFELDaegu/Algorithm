@@ -2,7 +2,7 @@ def solution(tickets):
     tickets.sort(key=lambda x: x[1])  # 뒤에꺼 기준 정렬
     answer = [t for t in tickets if t[0] == "ICN"][0]
     tickets.remove(answer)
-    selected = []
+    selected_tickets = []
 
     def recursive(tickets):
         # print("answer: {}\ntickets: {}\nselected:{}\n".format(answer,tickets,selected))
@@ -15,12 +15,12 @@ def solution(tickets):
             # 티켓이 남는다면(더이상 진행이 안되는 경우)
             # answer의 마지막 하나 빼고 다른 티켓으로 진행
             elif i == len(tickets)-1:
-                selected.append([answer[-2], answer.pop(-1)])
+                selected_tickets.append([answer[-2], answer.pop(-1)])
         return recursive(tickets)
 
     recursive(tickets)
-    if selected:  # 남은 티켓들 마저 선택
-        recursive(selected)
+    if selected_tickets:  # 남은 티켓들 마저 선택
+        recursive(selected_tickets)
 
     return answer
 
