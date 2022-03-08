@@ -68,6 +68,10 @@
 >- 26번: [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
 >- 27번: [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 
+2022-3-14 그래프
+- 28번: [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+- 29번: [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
