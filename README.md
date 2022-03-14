@@ -60,10 +60,18 @@
 - 22번: [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
 - 23번: [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
 
+2022-3-7 깊이/너비 우선 탐색(DFS/BFS)
+- 24번: [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
+- 25번: [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
+
+>방학 이분탐색
+>- 26번: [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
+>- 27번: [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
+
+2022-3-14 그래프
+- 28번: [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+- 29번: [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
-
-- 0214 허준호 불참
-- 0214 류한웅 불참
-- 0217 손승우 불참(그리디까지 각자 정리하고 다음주 월요일에 그리디부터 다시 해요)
