@@ -76,8 +76,12 @@
 - 30번: [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
 
 2022-3-21 스택/큐
-- 28번: [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
-- 29번: [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+- 31번: [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+- 32번: [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+
+2022-3-21 힙/정렬
+- 33번: [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+- 34번: [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
 ---
 ## 기타 사항
