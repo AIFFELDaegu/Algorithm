@@ -72,6 +72,17 @@
 - 28번: [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 - 29번: [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
 
+2022-3-17 해쉬
+- 30번: [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
+
+2022-3-21 스택/큐
+- 31번: [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+- 32번: [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+
+2022-3-21 힙/정렬
+- 33번: [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+- 34번: [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+
 ---
 ## 기타 사항
 - 불참 사유 등등
