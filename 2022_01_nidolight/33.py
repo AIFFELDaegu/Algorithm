@@ -10,17 +10,9 @@ def solution(operations):
         elif command == "D" and dpq:
             if num == '1' :
                 dpq.pop(-1)
-            else:
+            elif num == '-1':
                 heapq.heappop(dpq)
 
-    
-    if dpq:
-        return [max(dpq),min(dpq)]
-    else:
-        return [0,0]
-
-
-
-
+    return [max(dpq),min(dpq)] if dpq else [0,0]
 
 print(solution(["I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"]))

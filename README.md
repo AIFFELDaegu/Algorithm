@@ -79,10 +79,12 @@
 - 31번: [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 - 32번: [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
 
-2022-3-21 힙/정렬
+2022-3-24 힙/정렬
 - 33번: [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
 - 34번: [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
+2022-3-28 완전탐색
+- 35번: [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
 ---
 ## 기타 사항
 - 불참 사유 등등
