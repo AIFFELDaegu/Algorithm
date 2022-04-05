@@ -90,11 +90,9 @@
 - 36번: [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 - 37번: [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
 
-2022-4-4 탐욕법 / 동적 계획법
+2022-4-7 탐욕법 / 동적 계획법
 - 38번: [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
 - 39번: [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
-
-
 
 ---
 ## 기타 사항

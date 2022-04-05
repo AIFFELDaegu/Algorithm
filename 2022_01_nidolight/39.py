@@ -1,5 +1,3 @@
-
-
 def solution(m, n, puddles):
     _max = max(m,n)+1
     matrix = [[0 for j in range(_max)] for i in range(_max)]
