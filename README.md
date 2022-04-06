@@ -86,7 +86,7 @@
 2022-3-28 완전탐색
 - 35번: [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
 
-2022-3-31 힙/정렬
+2022-3-31 탐욕법(greedy)
 - 36번: [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 - 37번: [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
 
