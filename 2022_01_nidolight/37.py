@@ -66,7 +66,7 @@ def solution(n, costs):
     return answer 
 
 
-print(solution(5, [[0, 1, 5], [1, 2, 3], [2, 3, 3], [3, 1, 2], [3, 0, 4], [2, 4, 6], [4, 0, 7]]))
+print(solution(7, [ [2,3,7],[3,6,13],[3,5,23],[5,6,25],[0,1,29],[1,5,34],[1,2,35],[4,5,53],[0,4,75] ] ))
 
 # 크루스칼 알고리즘: https://whwl.tistory.com/m/245
 # testcase: https://programmers.co.kr/questions/17069
