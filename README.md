@@ -86,11 +86,11 @@
 2022-3-28 완전탐색
 - 35번: [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
 
-2022-3-31 힙/정렬
+2022-3-31 탐욕법(greedy)
 - 36번: [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 - 37번: [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
 
-2022-4-11 탐욕법 / 동적 계획법
+2022-4-14 탐욕법 / 동적 계획법
 - 38번: [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
 - 39번: [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 
